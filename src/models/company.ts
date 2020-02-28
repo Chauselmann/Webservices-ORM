@@ -1,0 +1,23 @@
+export interface CompanySchema {
+  name: string;
+
+  catchPhrase: string;
+
+  bs: string;
+}
+
+class Company {
+  name: string;
+
+  catchPhrase: string;
+
+  bs: string;
+
+  constructor(name: string, catchPhrase: string, bs: string) {
+    this.name = name;
+    this.catchPhrase = catchPhrase;
+    this.bs = bs;
+  }
+}
+
+export default Company;
